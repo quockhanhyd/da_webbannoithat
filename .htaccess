@@ -1,0 +1,70 @@
+# Bật Rewrite 
+RewriteEngine On 
+
+# Link trang cv 
+# Trước : /cv
+# Sau : cv.html
+RewriteRule ^cv.html$ cv/index.html [L]
+
+# Link trang chủ 
+# Trước : ?mod=product&controller=index&action=index 
+# Sau : trang-chu.html
+RewriteRule ^trang-chu.html$ index.php?mod=product&controller=index&action=index [L]
+
+# Link trang chi tiết bài viết  
+# Trước : ?mod=post&controller=index&action=detail&id=1
+# Sau : bai-viet.html
+RewriteRule ^([\w-]+)-([0-9]+)\.html$ index.php?mod=post&controller=index&action=detail&id=$2 [L]
+
+# Link trang chi tiết sản phẩm  
+# Trước : ?mod=product&controller=index&action=detail&id=4
+# Sau : product/dien-thoai-iphon.html
+RewriteRule ^san-pham/([\w-]+)-([0-9]+)\.html$ index.php?mod=product&controller=index&action=detail&id=$2 [L]
+
+# Link trang danh mục sản phẩm  
+# Trước : ?mod=product&controller=cat&action=index&id=13
+# Sau : san-pham/category
+RewriteRule ^san-pham/([\w-]+)$ index.php?mod=product&controller=cat&action=index&slug=$1 [QSA,L]
+
+# Link trang page  
+# Trước : ?mod=post&controller=page&action=index&id=2
+# Sau : lien-he.html
+RewriteRule ^([\w-]+)\.html$ index.php?mod=post&controller=page&action=index&slug=$1 [L]
+
+# Link trang giỏ hàng  
+# Trước : ?mod=product&controller=cart&action=index
+# Sau : gio-hang.html
+RewriteRule ^gio-hang$ index.php?mod=product&controller=cart&action=index [L]
+
+# Link trang thanh toán  
+# Trước : ?mod=product&controller=cart&action=checkout
+# Sau : gio-hang/thanh-toan.html
+RewriteRule ^gio-hang/thanh-toan\.html$ index.php?mod=product&controller=cart&action=checkout [L]
+
+# Link trang thong bao   
+# Trước : ?mod=product&controller=cart&action=notifice_checkout
+# Sau : gio-hang/thong-bao.html
+RewriteRule ^gio-hang/thong-bao\.html$ index.php?mod=product&controller=cart&action=notifice_checkout [L]
+
+# Link trang xác nhận đơn hàng   
+# Trước : ?mod=product&controller=cart&action=confirm_order
+# Sau : gio-hang/xac-nhan.html
+RewriteRule ^gio-hang/xac-nhan\.html$ index.php?mod=product&controller=cart&action=confirm_order [QSA,L]
+
+# Link trang xác nhận subcribe   
+# Trước : ?mod=product&controller=subscribe&action=confirm_subcribe
+# Sau : theo-doi/xac-nhan.html
+RewriteRule ^theo-doi/xac-nhan\.html$ index.php?mod=product&controller=subscribe&action=confirm_subcribe [QSA,L]
+
+# Link trang tìm kiếm  
+# Trước : ?mod=search&controller=index&action=index
+# Sau : tim-kiem.html
+RewriteRule ^tim-kiem$ index.php?mod=search&controller=index&action=index [QSA,L]
+
+# Link trang danh mục bài viết  
+# Trước : ?mod=post&controller=cat&action=index&id=13
+# Sau : tin-tuc/category
+RewriteRule ^([\w-]+)$ index.php?mod=post&controller=cat&action=index&slug=$1 [QSA,L]
+
+# Link trang cv không có đuôi .html
+RewriteRule ^cv$ cv/index.html [L]
