@@ -122,7 +122,7 @@
                 <div class="section" id="banner-wp">
                     <div class="section-detail">
                         <a href="" title="" class="thumb">
-                            <img src="public/images/banner.png" alt="">
+                            <img src="https://noithatgiakhanh.com/wp-content/uploads/2024/05/Banner-Noi-that-phong-khach-Noi-that-Gia-khanh.png" alt="">
                         </a>
                     </div>
                 </div>

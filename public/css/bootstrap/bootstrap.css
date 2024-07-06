@@ -216,7 +216,7 @@ body {
     font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 14px;
     line-height: 1.42857143;
-    color: #333333;
+    color: #4b1d09333;
     background-color: #ffffff;
 }
 input,
@@ -228,12 +228,12 @@ textarea {
     line-height: inherit;
 }
 a {
-    color: #337ab7;
+    color: #4b1d09;
     text-decoration: none;
 }
 a:hover,
 a:focus {
-    color: #23527c;
+    color: #4b1d09;
     text-decoration: underline;
 }
 a:focus {
@@ -630,7 +630,7 @@ tbody.collapse.in {
     clear: both;
     font-weight: normal;
     line-height: 1.42857143;
-    color: #333333;
+    color: #4b1d09333;
     white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
@@ -645,7 +645,7 @@ tbody.collapse.in {
     color: #ffffff;
     text-decoration: none;
     outline: 0;
-    background-color: #337ab7;
+    background-color: #4b1d09;
 }
 .dropdown-menu > .disabled > a,
 .dropdown-menu > .disabled > a:hover,

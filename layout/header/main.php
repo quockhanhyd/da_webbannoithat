@@ -63,7 +63,7 @@
                    
                         <a href="trang-chu.html" title="" id="logo" class="fl-left"><?php echo $info_sytem['title'] ; ?></a>
                     <div id="search-wp" class="fl-left">
-                        <form method="GET" action="<?php echo base_url().'tim-kiem'; ?>">
+                        <form method="GET" action="<?php echo base_url().'tim-kiem'; ?>" style="display:flex;">
                             <input type="text" name="q" id="s" value="<?php echo set_value('q') ; ?>" placeholder="Nhập từ khóa tìm kiếm tại đây!">
                             <button type="submit" id="sm-s">Tìm kiếm</button>
                         </form>

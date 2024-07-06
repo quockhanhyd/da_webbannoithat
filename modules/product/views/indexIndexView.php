@@ -3,8 +3,26 @@
 ?>
     <div id="main-content-wp" class="home-page clearfix">
         <div class="wp-inner">
+            <div class="section" id="slider-wp" style="margin-bottom: 20px;">
+                <div class="section-detail">
+                    <?php
+                        $slider = get_slider() ;
+                        if(!empty($slider)){
+                            foreach ($slider as $item ){
+                    ?>
+                    <div class="item">
+                        <img src="admin/<?php echo $item['url'] ; ?>" alt="">
+                        <?php if(!empty($item['caption'])){
+                            echo "<p class='caption'>{$item['caption']}</p>" ;
+                        }
+                        ?>
+
+                    </div>
+                    <?php }} ?>
+                </div>
+            </div>
             <div class="main-content fl-right">
-                <div class="section" id="slider-wp">
+                <!-- <div class="section" id="slider-wp">
                     <div class="section-detail">
                         <?php
                             $slider = get_slider() ;
@@ -21,7 +39,7 @@
                         </div>
                         <?php }} ?>
                     </div>
-                </div>
+                </div> -->
                 <?php 
                     if(!empty($list_support)){    
                 ?>
@@ -154,7 +172,7 @@
                 <div class="section" id="banner-wp">
                     <div class="section-detail">
                         <a href="" title="" class="thumb">
-                            <img src="public/images/banner.png" alt="">
+                            <img src="https://noithatgiakhanh.com/wp-content/uploads/2024/05/Banner-Noi-that-phong-khach-Noi-that-Gia-khanh.png" alt="">
                         </a>
                     </div>
                 </div>

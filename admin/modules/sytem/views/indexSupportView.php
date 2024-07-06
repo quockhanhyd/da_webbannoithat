@@ -71,7 +71,7 @@
                                                     <img src="<?php echo $item['url'] ; ?>" alt="">
                                                 </div>
                                             </td>
-                                            <td><span class="tbody-text" style="color :#337ab7"><?php echo $item['title']; ?></span></td>
+                                            <td><span class="tbody-text" style="color :#4b1d09"><?php echo $item['title']; ?></span></td>
                                             <td>
                                                 <div class="option-tool">
                                                     <a href="<?php echo $item['path']['edit'] ; ?>" title="Sửa" class="edit"><i class="fa fa-pencil" aria-hidden="true"></i></a>

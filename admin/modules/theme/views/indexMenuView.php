@@ -50,7 +50,7 @@ get_notifice_session() ;
                                             <td><span class="tbody-text"><?php echo $stt ; ?></h3></span>
                                             <td class="clearfix">
                                                 <div class="tb-title fl-left">
-                                                    <p style="color: #337ab7"><?php echo $item['title']; ?></p>
+                                                    <p style="color: #4b1d09"><?php echo $item['title']; ?></p>
                                                 </div>
                                             </td>
                                             <td><span class="tbody-text"><?php echo $item['ordinal']; ?></span></td>

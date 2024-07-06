@@ -8,7 +8,7 @@ body{
     line-height: 24px;
 }
 #breadcrumb-wp ul.list-item li a.active {
-    color: #215b72 ;
+    color: #4b1d09 ;
 }
 .wp-inner{
     width: 1170px;
@@ -92,7 +92,7 @@ a{ text-decoration: none!important;}
 }
 .owl-theme .owl-controls .owl-page.active span{ background: #fff;}
 #slider .owl-page span{ border: 1px solid #fff;}
-#slider .owl-page.active span{ background: #333;}
+#slider .owl-page.active span{ background: #4b1d09;}
 
 /*SOCIAL*/
 iframe{ width: 100%!important;}
@@ -121,7 +121,7 @@ iframe{ width: 100%!important;}
     position: absolute;
     content: '\f104';
     font-family: 'Fontawesome';
-    color: #333;
+    color: #4b1d09;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);

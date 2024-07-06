@@ -1,5 +1,5 @@
 /*HEADER*/
-#head-top{ background: #215b72;}
+#head-top{ background: #ddb671;}
 #head-top #main-menu li{ float: left;}
 #head-top #payment-link{
     position: relative;
@@ -16,20 +16,20 @@
 }
 #head-top #main-menu li a{
     display: inline-block;
-    color: #fff;
+    color: #4b1d09;
     padding: 10px 15px;
 }
 #head-top #main-menu li:last-child a{ padding-right: 0!important;}
-#head-body{ background: #276881;}
+#head-body{ background: #4b1d09;}
 #head-body #logo{
     display: block;
     font-size: 30px;
     text-transform: uppercase;
     font-family: 'Roboto Medium';
-    color: #fff;
+    color: #ddb571da;
     padding: 27px 0px;
 }
-#head-body #search-wp{ padding: 22px 0px 22px 195px;}
+#head-body #search-wp{ padding: 22px 0px 22px 80px;}
 #head-body #search-wp #s{
     display: inline-block;
     width: 400px;
@@ -37,6 +37,11 @@
     outline: none;
     padding: 8px 20px;
     line-height: normal;
+    background-color: #ddb671;
+    color: #4b1d09;
+}
+#head-body #search-wp #s::placeholder {
+    color: #4b1d09; 
 }
 #head-body #search-wp #sm-s{
     position: relative;
@@ -44,13 +49,13 @@
     display: inline-block;
     border: none;
     outline: none;
-    background: #111111;
-    color: #fff;
+    background: #ddb571da;
+    color: #4b1d09;
     padding: 10px 20px;
     line-height: 13px;
     font-size: 13px;
 }
-#head-body #search-wp #sm-s:hover{ background: #444444;}
+#head-body #search-wp #sm-s:hover{ background: #ddb57194;}
 #advisory-wp{
     position: relative;
     padding: 15px 30px 15px 50px;
@@ -62,11 +67,11 @@
     top: 50%;
     left: 0px;
     font-size: 21px;
-    color: #fff;
+    color: #ddb571da;
     width: 38px;
     height: 38px;
     line-height: 35px;
-    border: 2px solid #fff;
+    border: 2px solid #ddb571da;
     border-radius: 50%;
     text-align: center;
     transform: translateY(-50%);
@@ -76,7 +81,7 @@
     content: '';
     width: 1px;
     height: 50%;
-    background: #da263c;
+    background: #ddb671;
     top: 50%;
     right: 0;
     transform: translateY(-50%);
@@ -84,14 +89,14 @@
 #advisory-wp span{
     position: relative;
     display: block;
-    color: #fff;
+    color: #ddb571da;
 }
 #advisory-wp .title{ font-size: 15px;}
 #advisory-wp .phone{ font-family: 'Roboto Bold'; font-size: 16px;}
 #cart-wp, #cart-respon-wp{
     position: relative;
     display: block;
-    color: #fff;
+    color: #ddb571da;
     padding: 20px 0px 20px 30px;
 }
 #cart-wp i, #cart-respon-wp i{
@@ -100,8 +105,9 @@
     height: 37px;
     line-height: 33px;
     text-align: center;
-    border: 2px solid #fff;
+    border: 2px solid #ddb571da;
     border-radius: 50%;
+    color: #ddb571da;
 }
 #cart-wp #num, #cart-respon-wp #num{
     position: absolute;
@@ -147,18 +153,18 @@
 }
 #cart-wp .list-cart .thumb{ width: 25%;}
 #cart-wp .list-cart .info{ width: 75%; padding-left: 15px;}
-#cart-wp #dropdown .desc{ margin-bottom: 15px; color: #333;}
-#cart-wp #dropdown .desc span{ color: #215b72; font-family: 'Roboto Medium';}
+#cart-wp #dropdown .desc{ margin-bottom: 15px; color: #4b1d09;}
+#cart-wp #dropdown .desc span{ color: #4b1d09; font-family: 'Roboto Medium';}
 #cart-wp #dropdown .list-cart .info .product-name{
     display: block;
     font-size: 13px;
-    color: #333;
+    color: #4b1d09;
 }
 #cart-wp #dropdown .list-cart .info .price{
     display: block;
     font-family: 'Roboto Medium';
     font-size: 15px;
-    color: #333;
+    color: #4b1d09;
 }
 #cart-wp #dropdown .list-cart .info .qty{
     display: block;
@@ -181,8 +187,8 @@
     text-transform: uppercase;
     font-size: 12px;
 }
-#cart-wp #dropdown .action-cart a.view-cart{ background: #ddd; color: #333;}
-#cart-wp #dropdown .action-cart a.checkout{ background: #215b72; color: #fff;}
+#cart-wp #dropdown .action-cart a.view-cart{ background: #ddd; color: #4b1d09;}
+#cart-wp #dropdown .action-cart a.checkout{ background: #4b1d09; color: #fff;}
 #cart-wp #dropdown .action-cart a.view-cart:hover{ background: #ccc;}
 #cart-wp #dropdown .action-cart a.checkout:hover{ background: #af1427;}
 
@@ -201,7 +207,7 @@
 }
 
 #head-top #main-menu ul.sub-menu a {
-    color: #333 ;
+    color: #4b1d09 ;
 }
 
 #head-top #main-menu li:hover>.sub-menu {

@@ -39,7 +39,7 @@
  #gallery_01 img{border:2px solid white;}
  
  /*Change the colour*/
- .active img{border:2px solid #333 !important;}
+ .active img{border:2px solid #4b1d09 !important;}
 
 #detail-product-wp .owl-controls .owl-buttons div.owl-next{ right: 0px;}
 #detail-product-wp .owl-controls .owl-buttons div.owl-prev{ left: -8px;}
@@ -83,7 +83,7 @@
 #detail-product-wp .info .price{
     font-size: 28px;
     font-family: 'Roboto Medium';
-    color: #276881;
+    color: #4b1d09;
     margin-bottom: 15px;
 }
 #num-order-wp{ margin-bottom: 25px;}
@@ -120,12 +120,12 @@
     display: inline-block;
     padding: 10px 30px;
     font-size: 16px;
-    background: #215b72;
+    background: #4b1d09;
     color: #fff;
     border-radius: 5px;
     text-transform: uppercase;
 }
-#detail-product-wp .add-cart:hover{ background: #215b72;}
+#detail-product-wp .add-cart:hover{ background: #4b1d09;}
 #post-product-wp .section-title, #same-category-wp .section-title{
     font-size: 21px;
     margin: 35px 0px 20px 0px;

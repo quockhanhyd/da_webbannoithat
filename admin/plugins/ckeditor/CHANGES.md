@@ -205,7 +205,7 @@ Fixed Issues:
 * [#14660](http://dev.ckeditor.com/ticket/14660): Fixed: [Pasting text from  Word](http://ckeditor.com/addon/pastefromword) breaks the styling in some cases.
 * [#14867](http://dev.ckeditor.com/ticket/14867): [Firefox] Fixed: Text gets stripped when [pasting content from Word](http://ckeditor.com/addon/pastefromword).
 * [#2507](http://dev.ckeditor.com/ticket/2507): Fixed: [Paste from Word](http://ckeditor.com/addon/pastefromword) does not detect pasting a part of a paragraph.
-* [#3336](http://dev.ckeditor.com/ticket/3336): Fixed: Extra blank row added on top of the content [pasted from Word](http://ckeditor.com/addon/pastefromword).
+* [#4b1d096](http://dev.ckeditor.com/ticket/3336): Fixed: Extra blank row added on top of the content [pasted from Word](http://ckeditor.com/addon/pastefromword).
 * [#6115](http://dev.ckeditor.com/ticket/6115): Fixed: When Right-to-Left text direction is applied to a table [pasted from Word](http://ckeditor.com/addon/pastefromword), borders are missing on one side.
 * [#6342](http://dev.ckeditor.com/ticket/6342): Fixed: [Paste from Word](http://ckeditor.com/addon/pastefromword) filters out a basic text style when it is [configured to use attributes](http://docs.ckeditor.com/#!/guide/dev_basicstyles-section-custom-basic-text-style-definition).
 * [#6457](http://dev.ckeditor.com/ticket/6457): [IE] Fixed: [Pasting from Word](http://ckeditor.com/addon/pastefromword) is extremely slow.

@@ -313,7 +313,7 @@ EOF;
     public function getStylesheet(FlattenException $exception)
     {
         return <<<'EOF'
-            .sf-reset { font: 11px Verdana, Arial, sans-serif; color: #333 }
+            .sf-reset { font: 11px Verdana, Arial, sans-serif; color: #4b1d09 }
             .sf-reset .clear { clear:both; height:0; font-size:0; line-height:0; }
             .sf-reset .clear_fix:after { display:block; height:0; clear:both; visibility:hidden; }
             .sf-reset .clear_fix { display:inline-block; }
@@ -328,7 +328,7 @@ EOF;
             .sf-reset a:hover { text-decoration:underline; }
             .sf-reset em { font-style:italic; }
             .sf-reset h1, .sf-reset h2 { font: 20px Georgia, "Times New Roman", Times, serif }
-            .sf-reset .exception_counter { background-color: #fff; color: #333; padding: 6px; float: left; margin-right: 10px; float: left; display: block; }
+            .sf-reset .exception_counter { background-color: #fff; color: #4b1d09; padding: 6px; float: left; margin-right: 10px; float: left; display: block; }
             .sf-reset .exception_title { margin-left: 3em; margin-bottom: 0.7em; display: block; }
             .sf-reset .exception_message { margin-left: 3em; display: block; }
             .sf-reset .traces li { font-size:12px; padding: 2px 4px; list-style-type:decimal; margin-left:20px; }
@@ -344,7 +344,7 @@ EOF;
                 border-left:1px solid #ccc;
                 word-wrap: break-word;
             }
-            .sf-reset .block_exception { background-color:#ddd; color: #333; padding:20px;
+            .sf-reset .block_exception { background-color:#ddd; color: #4b1d09; padding:20px;
                 -webkit-border-top-left-radius: 16px;
                 -webkit-border-top-right-radius: 16px;
                 -moz-border-radius-topleft: 16px;

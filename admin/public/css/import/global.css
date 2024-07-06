@@ -2,7 +2,7 @@ body{
     font-family: "Roboto Regular";
     font-size: 14px;
     line-height: 24px;
-    color: #333;
+    color: #4b1d09;
     height: 100% ;
 }
 html,#site{
@@ -140,7 +140,7 @@ div.option-tool ul.info li.title{
     line-height: 30px;
     text-transform: uppercase;
     color: #fff;
-    background: #4fa327;
+    background: #4b1d09;
 }
 div.option-tool ul.info li p{
     font-size: 17px;

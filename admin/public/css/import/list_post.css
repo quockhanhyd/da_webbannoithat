@@ -1,5 +1,5 @@
 /*LIST*/
-#header-wp{ background: #4fa327;}
+#header-wp{ background: #4b1d09;}
 #main-menu{ margin-left: 120px;}
 #main-menu li{ float: left;}
 #main-menu li a{
@@ -32,7 +32,7 @@
 #add-new{
     display: inline-block;
     color: #fff;
-    background: #4fa327;
+    background: #4b1d09;
     padding: 9px 20px;
     margin: 15px 70px;
 }
@@ -60,7 +60,7 @@
 #list-cat li a{
     position: relative;
     display: block;
-    color: #333;
+    color: #4b1d09;
     padding: 10px 15px;
     border-bottom: 1px solid #ddd;
 }
@@ -125,13 +125,13 @@
     padding: 8px 20px;
     font-size: 13px;
     background: #fff;
-    color: #333;
+    color: #4b1d09;
     text-transform: capitalize;
     border-bottom: 1px solid #dadada;
 }
 #main-menu .sub-menu li:last-child a{ border-bottom: none;}
 #main-menu > li:hover .sub-menu{ display: block;}
-#main-menu .sub-menu li:hover a{ background: #4FA327; color: #fff;}
+#main-menu .sub-menu li:hover a{ background: #4b1d09; color: #fff;}
 
 /*FOOTER*/
 #copyright{
@@ -139,7 +139,7 @@
     text-align: center;
     color: #fff;
     font-size: 13px;
-    background: #4FA327;
+    background: #4b1d09;
     padding: 10px 0px;
 }
 

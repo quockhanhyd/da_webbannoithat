@@ -19,13 +19,13 @@
 }
 
 #detail-blog-wp .detail p{
-    color: #333;
+    color: #4b1d09;
     line-height: 28px;
     text-align: justify;
     padding-bottom: 15px;
     font-size: 15px;
 }
-#detail-blog-wp .detail p strong{ font-family: 'Roboto Medium'; font-weight: normal; color: #333;}
+#detail-blog-wp .detail p strong{ font-family: 'Roboto Medium'; font-weight: normal; color: #4b1d09;}
 #detail-blog-wp .detail p img{
     display: block;
     margin: 0px auto;
