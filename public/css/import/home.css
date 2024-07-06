@@ -74,7 +74,7 @@
     color: #4b1d09;
     font-size: 13px;
 }
-#support-wp{ margin-top: 25px;}
+/* #support-wp{ margin-top: 25px;} */
 #support-wp .section-detail{ background: #ddb571da; color: #4b1d09; padding: 15px 0px; border-radius: 8px; }
 #support-wp .section-detail .list-item li{ float: left; width: 100%; text-align: center; position: relative;}
 #support-wp .section-detail .list-item li:before{
@@ -105,7 +105,7 @@
     font-size: 21px;
     text-transform: uppercase;
     line-height: normal;
-    margin: 40px 0px 20px 0px;
+    margin: 20px 0px 20px 0px;
 }
 #feature-product-wp .list-item li, #same-category-wp .list-item li{
     background: #fff;
